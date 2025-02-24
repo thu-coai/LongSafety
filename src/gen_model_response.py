@@ -29,12 +29,12 @@ def load_data(data_dir):
         assert m['id'] == d['id']
         data.append({**m, **d})
 
-    return data[:10]
+    return data
 
 
 def build_prompt(d):
-    query = d['query']
-    context = d['text']
+    query = d['instruction']
+    context = d['context']
     query_front_prompt = f'Based on the following long context, {query}\n\n{context}'
     query_end_prompt = f'{context}\n\nBased on the long context above, {query}'
     return query_front_prompt, query_end_prompt
