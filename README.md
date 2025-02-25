@@ -4,9 +4,12 @@
 <img src="assets/longsafety.png" alt="LongSafety" width="70%" />
 </div>
 
-This is the codebase for our paper "[LongSafety: Evaluating Long-Context Safety of Large Language Models]()".
+This is the codebase for our paper "[LongSafety: Evaluating Long-Context Safety of Large Language Models](https://arxiv.org/abs/2502.16971)".
 
 LongSafety is the first benchmark to comprehensively evaluate LLM safety in open-ended long-context tasks. It encompasses 1,543 instances with an average length of 5,424 words and comprises 7 safety issues and 6 task types, covering a wide range of long-context safety problems in real-world scenarios.
+
+## News
+**🎉 `2025/02/25`:** We have released the data and evaluation code of LongSafety.
 
 ## Data
 
@@ -45,3 +48,17 @@ bash eval.sh
 You can change the `model_name` and `model_path` in `eval.sh` to evaluate different models. You will also need to set your openai api key at `OPENAI_API_KEY` in `eval.sh` to use the multi-agent framework for safety judgment of the generation results. The results will be saved in `./result` by default, and you can freely change it if necessary.
 
 ## Citation
+
+Please kindly cite our paper if you find our work helpful.
+
+```
+@misc{lu2025longsafetyevaluatinglongcontextsafety,
+      title={LongSafety: Evaluating Long-Context Safety of Large Language Models}, 
+      author={Yida Lu and Jiale Cheng and Zhexin Zhang and Shiyao Cui and Cunxiang Wang and Xiaotao Gu and Yuxiao Dong and Jie Tang and Hongning Wang and Minlie Huang},
+      year={2025},
+      eprint={2502.16971},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2502.16971}, 
+}
+```
