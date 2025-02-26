@@ -9,6 +9,8 @@ This is the codebase for our paper "[LongSafety: Evaluating Long-Context Safety 
 LongSafety is the first benchmark to comprehensively evaluate LLM safety in open-ended long-context tasks. It encompasses 1,543 instances with an average length of 5,424 words and comprises 7 safety issues and 6 task types, covering a wide range of long-context safety problems in real-world scenarios.
 
 ## News
+
+**🎉 `2025/02/26`:** We have released the data of LongSafety on [Huggingface🤗](https://huggingface.co/datasets/thu-coai/LongSafety).
 **🎉 `2025/02/25`:** We have released the data and evaluation code of LongSafety.
 
 ## Data
