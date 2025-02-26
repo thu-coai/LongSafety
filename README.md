@@ -11,6 +11,7 @@ LongSafety is the first benchmark to comprehensively evaluate LLM safety in open
 ## News
 
 **🎉 `2025/02/26`:** We have released the data of LongSafety on [Huggingface🤗](https://huggingface.co/datasets/thu-coai/LongSafety).
+
 **🎉 `2025/02/25`:** We have released the data and evaluation code of LongSafety.
 
 ## Data
