@@ -10,7 +10,7 @@ LongSafety is the first benchmark to comprehensively evaluate LLM safety in open
 
 ## News
 
-**🎉 `2025/05/16`:** Our Paper `LongSafety: Evaluating Long-Context Safety of Large Language Models` has been accepted by ACL 2025 Main Conference! Please feel free to contact us if you are interested in our work.
+**🎉 `2025/05/16`:** Our Paper `LongSafety: Evaluating Long-Context Safety of Large Language Models` has been accepted by ACL 2025 Main Conference! Please feel free to contact us if you are interested in our work. 
 
 **🎉 `2025/02/26`:** We have released the data of LongSafety on [Huggingface🤗](https://huggingface.co/datasets/thu-coai/LongSafety).
 
